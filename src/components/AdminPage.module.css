@@ -1,0 +1,80 @@
+.admin-container {
+  padding: 20px;
+}
+
+.admin-container input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table thead {
+  background-color: #f4f4f9;
+}
+
+table thead th {
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+table tbody td {
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.searchContainer {
+  position: relative;
+}
+
+.autocomplete {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  max-height: 150px;
+  overflow-y: auto;
+  margin-top: 0;
+  padding-left: 0;
+  list-style-type: none;
+  position: absolute;
+  z-index: 1000;
+  width: 100%; /* Ensure the width matches the input field */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 4px 4px;
+}
+
+.autocomplete li {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.autocomplete li:hover {
+  background-color: #f1f1f1;
+}
+
+.autocomplete li:last-child {
+  border-bottom: none;
+}

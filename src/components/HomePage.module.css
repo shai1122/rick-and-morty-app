@@ -1,0 +1,33 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.home-container a {
+  display: inline-block;
+  margin: 10px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.home-container a:hover {
+  text-decoration: underline;
+}
